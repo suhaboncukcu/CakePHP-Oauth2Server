@@ -15,7 +15,7 @@ You can install this plugin into your CakePHP application using [composer](http:
 #### 1. Use composer to install 
 
 ```
-composer require suhaboncukcu/Oauth2Server
+composer require suhaboncukcu/oauth2server
 ```
 
 #### 2. Load the plugin
