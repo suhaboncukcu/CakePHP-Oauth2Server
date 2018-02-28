@@ -34,8 +34,9 @@ You should copy and paste them to your desired location.
 #### 4. Create & Update the config file
 
 Copy & paste `vendors\suhaboncukcu\Oauth2Server\config\oauth2.php` to your config folder and update it. 
+After creating your keys, you should set their permissions to `600` or `660`
 
-#### 5. Implement end points. 
+#### 5. Implement end points. ``
 
 ```
 // in one of your controllers
