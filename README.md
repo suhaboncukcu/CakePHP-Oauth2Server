@@ -1,5 +1,7 @@
 # Oauth2Server plugin for CakePHP
 
+This plugin is intended to be an easy way to build an Oauth2 Server using [thephpleague/oauth2-server](http://oauth2.thephpleague.com/)
+
 **!!Attention!!**
 This plugin does not support refresh token repository yet. Access tokens are usable without any
 expiration date. **use at your own risk!**
