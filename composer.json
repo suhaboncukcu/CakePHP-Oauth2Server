@@ -3,8 +3,16 @@
     "description": "Oauth2Server plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
+    "keywords": [
+        "cakephp",
+        "oauth2",
+        "auth",
+        "thphpleague",
+        "suhaboncukcu"
+    ],
     "require": {
-        "cakephp/cakephp": "^3.4"
+        "cakephp/cakephp": "^3.4",
+        "league/oauth2-server": "^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7|^6.0"
