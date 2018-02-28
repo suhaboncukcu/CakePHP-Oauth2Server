@@ -1,5 +1,5 @@
 {
-    "name": "suhaboncukcu/Oauth2Server",
+    "name": "suhaboncukcu/oauth2server",
     "description": "Oauth2Server plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
