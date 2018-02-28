@@ -20,7 +20,7 @@ class ClientRepository implements ClientRepositoryInterface
      *
      * @return ClientEntity
      */
-    public function getClientEntity($clientIdentifier, $grantType, $clientSecret = null, $mustValidateSecret = true)
+    public function getClientEntity($clientIdentifier, $grantType = null, $clientSecret = null, $mustValidateSecret = true)
     {
         /*
          * This method is called to validate a client’s credentials.
