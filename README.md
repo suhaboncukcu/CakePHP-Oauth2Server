@@ -21,11 +21,26 @@ You can install this plugin into your CakePHP application using [composer](http:
 composer require suhaboncukcu/oauth2server
 ```
 
+>! Create openSSL and encryption keys. I usually use a composer snippet to handle these tasks as below: 
+ ```
+ ...
+    "create-keys": [
+         "openssl genrsa -out private.key 2048",
+         "openssl rsa -in private.key -pubout -out public.key"
+     ],
+     "create-encryption-key": [
+         "./vendor/bin/generate-defuse-key"
+     ],
+ ...
+ ```
+ 
+
 #### 2. Load the plugin
 
 ```
 Plugin::load('Oauth2Server', ['bootstrap' => true, 'routes' => false]);
 ```
+
 
 #### 3. Create your validators
 
